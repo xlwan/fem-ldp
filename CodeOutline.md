@@ -18,3 +18,8 @@ The code is written in C/C++. The source files are summarized in the following t
 | common.cpp           | Some functions shared by other files                         |
 | FortrainMapping.cpp  | Re-declaration of functions from Fortran libraries           |
 
+## Code description
+
+This is a flow chart of the code:
+
+![flow-chart-code](/home/xlwan/work/GitHub/fem-ldp/prep/flow-chart-code.png)
