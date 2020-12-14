@@ -1,0 +1,12 @@
+g++ -g -c ../src/main.cpp
+g++ -g -c ../src/Common.cpp
+g++ -g -c ../src/Jacobi.cpp
+g++ -g -c ../src/Basis.cpp
+g++ -g -c ../src/ActionFunctional.cpp
+g++ -g -c ../src/polylib.cpp
+g++ -g -c ../src/FortranMapping.cpp
+g++ -g -c ../src/ElementT.cpp
+g++ -g -c ../src/HPadaptivity.cpp
+g++ -g -c ../src/CG_Descent.cpp
+g++ -g -o nsmam.I.s main.o Common.o Jacobi.o Basis.o ActionFunctional.o polylib.o FortranMapping.o ElementT.o HPadaptivity.o CG_Descent.o -llapack -lblas -lfftw3
+\rm *.o 

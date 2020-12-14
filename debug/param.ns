@@ -1,0 +1,22 @@
+- Parameters for aMAM solver of NS equation -
+	20  PARAMETERS FOLLOW
+      4       NT
+      2       RNT
+      3       NTE
+      2       NDIM
+      20      IOSTEP
+      0       is_Restart
+      0       is_FixedTime
+      10      T
+      1e-8   tol_cg_grad
+      1       is_strategy_one
+      1       is_model_adpt
+      0       is_p_adpt
+      0       is_multi_h_refinement
+      15      max_p
+      1e-5   tol_adpt_mesh
+      10      theta_threshold
+      0.1     theta_ratio_dof
+      2.0     alpha_ratio
+      4.0     alpha_max
+      0.5     bulk_err_ratio
