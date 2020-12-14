@@ -24,11 +24,11 @@ This is a flow chart of the code:
 
 ![](flow-chart-code.png)
 
-The details of the algorithm can be found in [*X. Wan, B. Zheng and G. Lin, An hp adaptive minimum action method based on a posteriori error estimate, Communications in Computational Physics, 23(2) (2018), pp. 408-439.*]
+The details of the algorithm can be found in [*X. Wan, B. Zheng and G. Lin, An hp adaptive minimum action method based on a posteriori error estimate, Communications in Computational Physics, 23(2) (2018), pp. 408-439.*] The source code in the directory ./src is for the Maier-Stein model in section 4.2 of this paper. 
 
 ## The input file
 
-The input file is named as **param.ns** by default. The main parameters used in the code are summarized in the following table:
+The input file is named as **param.ns** by default. A typical input file can be found in the directory ./debug. The main parameters used in the code are summarized in the following table:
 
 | Name            | Description                                                  |
 | --------------- | ------------------------------------------------------------ |
@@ -54,3 +54,7 @@ The input file is named as **param.ns** by default. The main parameters used in 
 ## The output files
 
 The output files include: **MAP_modes_report.dat, path_report.dat and Adpt_info_report.dat**. **Map_modes_report.dat** has the information of the transition path in the modal space, and **path_report.dat** has the information in the physical space, and **Adpt_info_report.dat** has the information of adaptive meshes. The restart file is named as **map_restart.dat**, which has the same format as **MAP_modes_report.dat**.
+
+## Compile and run
+
+In directory ./debug, we provide a typical input file **param.ns**. A simple script **compile_ode** can be used to compile the code. To run the code, numerical libraries lapack, blas, and fftw3 are needed. 
