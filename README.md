@@ -26,9 +26,7 @@ The probabilistic meaning of the quasi-potential is
 $$
 V(x_1,x_2)=\lim_{T\rightarrow\infty}\lim_{\delta\downarrow0}\lim_{\varepsilon\downarrow0}-\varepsilon\log\Pr(\tau_\delta<T),
 $$
-where $\tau_\delta$ is the first entrance time of the $\delta$-neighborhood of $x_2$ for the process $X_t$ starting from $x_1$.  
-
-
+where $\tau_\delta$ is the first entrance time of the $\delta$-neighborhood of $x_2$ for the process $X_t$ starting from $x_1$.   
 
 In this project, we provide algorithms for the following two types of problems:
 $$
@@ -40,3 +38,9 @@ $$
 $$
 where $T^*$ and $\phi^*$ indicates the minimizers. Problem I characterizes the most probable transition path for a specified time scale while Problem II is directly from the quasi-potential with a relaxed time scale for transition.
 
+Following are some references related to the algorithms:
+
+1. X. Wan, An adaptive high-order minimum action method, *Journal of Computational Physics*, 230 (2011), pp. 8669-8682. 
+2. X. Wan, A minimum action method with optimal linear time scaling, *Communications in Computational Physics*, 18(5) (2015), pp. 1352-1379. 
+3. X. Wan, B. Zheng and G. Lin, An *hp* adaptive minimum action method based on a posteriori error estimate, *Communications in Computational Physics*, 23(2) (2018), pp. 408-439. 
+4. X. Wan, H. Yu and J. Zhai, Convergence analysis of a finite element approximation of minimum action method, SIAM Journal on Numerical Analysis, 56(3) (2018), pp. 1597-1620. 
