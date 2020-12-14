@@ -26,5 +26,17 @@ The probabilistic meaning of the quasi-potential is
 $$
 V(x_1,x_2)=\lim_{T\rightarrow\infty}\lim_{\delta\downarrow0}\lim_{\varepsilon\downarrow0}-\varepsilon\log\Pr(\tau_\delta<T),
 $$
-where $\tau_\delta$ is the first entrance time of the $\delta$-neighborhood of $x_2$ for the process $X_t$ starting from $x_1$. 
+where $\tau_\delta$ is the first entrance time of the $\delta$-neighborhood of $x_2$ for the process $X_t$ starting from $x_1$.  
+
+
+
+In this project, we provide algorithms for the following two types of problems:
+$$
+\textrm{Problem I:}\quad\quad S_{T}(\phi^*)=\inf_{\substack{\phi(0)=x_1,\\ \phi(T)=x_2}}S_T(\phi)
+$$
+and
+$$
+\textrm{Problem II:}\quad\quad S_{T^*}(\phi^*)=\inf_{T\in\mathbb{R}^+}\inf_{\substack{\phi(0)=x_1,\\ \phi(T)=x_2}}S_T(\phi),
+$$
+where $T^*$ and $\phi^*$ indicates the minimizers.
 
