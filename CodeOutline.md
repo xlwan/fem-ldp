@@ -22,4 +22,4 @@ The code is written in C/C++. The source files are summarized in the following t
 
 This is a flow chart of the code:
 
-![flow-chart-code](/home/xlwan/work/GitHub/fem-ldp/prep/flow-chart-code.png)
+![](flow-chart-code.png)
