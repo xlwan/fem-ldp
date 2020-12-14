@@ -38,5 +38,5 @@ and
 $$
 \textrm{Problem II:}\quad\quad S_{T^*}(\phi^*)=\inf_{T\in\mathbb{R}^+}\inf_{\substack{\phi(0)=x_1,\\ \phi(T)=x_2}}S_T(\phi),
 $$
-where $T^*$ and $\phi^*$ indicates the minimizers.
+where $T^*$ and $\phi^*$ indicates the minimizers. Problem I characterizes the most probable transition path for a specified time scale while Problem II is directly from the quasi-potential with a relaxed time scale for transition.
 
