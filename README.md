@@ -14,7 +14,7 @@ when $\varepsilon$ is small enough, and $S_T(\phi)$ is called the action functio
 $$
 S_T(\phi)=\frac{1}{2}\int_0^TL(\phi,\dot{\phi})dt=\frac{1}{2}\int_0^T|\dot{\phi}-b(\phi)|^2dt,
 $$
-  where $\dot{\phi}$ indicates the derivative with respect to $t$. The fact given in equation (2) implies the large deviation principle (LDP), which says that the probability of some random events can be estimated asymptotically if the noise amplitude is small enough. For example, if $A$ is a Borel subset in $\mathbb{R}^n$, we have LDP that
+  where $\dot{\phi}$ indicates the derivative with respect to $t$. This implies the large deviation principle (LDP), which says that the probability of some random events can be estimated asymptotically if the noise amplitude is small enough. For example, if $A$ is a Borel subset in $\mathbb{R}^n$, we have LDP that
 $$
 \lim_{\varepsilon\downarrow0}\varepsilon\log\Pr(X_0=x,X_T\in A)=-\inf_{\substack{\phi(0)=x,\\ \phi(T)\in A}}S_T(\phi),
 $$
