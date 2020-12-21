@@ -97,6 +97,8 @@ The output files include: **MAP_modes_report.dat, path_report.dat and Adpt_info_
 
 In directory ./debug, we provide a typical input file **param.ns**. A simple script **compile_ode** can be used to compile the code. To run the code, numerical libraries lapack, blas, and fftw3 are needed. 
 
+## Reference
+
 Following are some references related to the algorithms:
 
 1. X. Wan, An adaptive high-order minimum action method, *Journal of Computational Physics*, 230 (2011), pp. 8669-8682. 
