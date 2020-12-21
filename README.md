@@ -38,12 +38,13 @@ $$
 $$
 where $T^*$ and $\phi^*$ indicates the minimizers. Problem I characterizes the most probable transition path for a specified time scale while Problem II is directly from the quasi-potential with a relaxed time scale for transition.
 
-Following are some references related to the algorithms:
+## Code description
 
-1. X. Wan, An adaptive high-order minimum action method, *Journal of Computational Physics*, 230 (2011), pp. 8669-8682. 
-2. X. Wan, A minimum action method with optimal linear time scaling, *Communications in Computational Physics*, 18(5) (2015), pp. 1352-1379. 
-3. X. Wan, B. Zheng and G. Lin, An *hp* adaptive minimum action method based on a posteriori error estimate, *Communications in Computational Physics*, 23(2) (2018), pp. 408-439. 
-4. X. Wan, H. Yu and J. Zhai, Convergence analysis of a finite element approximation of minimum action method, SIAM Journal on Numerical Analysis, 56(3) (2018), pp. 1597-1620. 
+This is a flow chart of the code:
+
+![](flow-chart-code.png)
+
+The details of the algorithm can be found in [*X. Wan, B. Zheng and G. Lin, An hp adaptive minimum action method based on a posteriori error estimate, Communications in Computational Physics, 23(2) (2018), pp. 408-439.*] The source code in the directory ./src is for the Maier-Stein model in section 4.2 of this paper. 
 
 ## Source files
 
@@ -62,14 +63,6 @@ The code is written in C/C++. The source files are summarized in the following t
 | polylib.cpp          | Manipulations of orthogonal polynomials                      |
 | common.cpp           | Some functions shared by other files                         |
 | FortrainMapping.cpp  | Re-declaration of functions from Fortran libraries           |
-
-## Code description
-
-This is a flow chart of the code:
-
-![](flow-chart-code.png)
-
-The details of the algorithm can be found in [*X. Wan, B. Zheng and G. Lin, An hp adaptive minimum action method based on a posteriori error estimate, Communications in Computational Physics, 23(2) (2018), pp. 408-439.*] The source code in the directory ./src is for the Maier-Stein model in section 4.2 of this paper. 
 
 ## The input file
 
@@ -103,3 +96,10 @@ The output files include: **MAP_modes_report.dat, path_report.dat and Adpt_info_
 ## Compile and run
 
 In directory ./debug, we provide a typical input file **param.ns**. A simple script **compile_ode** can be used to compile the code. To run the code, numerical libraries lapack, blas, and fftw3 are needed. 
+
+Following are some references related to the algorithms:
+
+1. X. Wan, An adaptive high-order minimum action method, *Journal of Computational Physics*, 230 (2011), pp. 8669-8682. 
+2. X. Wan, A minimum action method with optimal linear time scaling, *Communications in Computational Physics*, 18(5) (2015), pp. 1352-1379. 
+3. X. Wan, B. Zheng and G. Lin, An *hp* adaptive minimum action method based on a posteriori error estimate, *Communications in Computational Physics*, 23(2) (2018), pp. 408-439. 
+4. X. Wan, H. Yu and J. Zhai, Convergence analysis of a finite element approximation of minimum action method, SIAM Journal on Numerical Analysis, 56(3) (2018), pp. 1597-1620. 
