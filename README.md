@@ -6,7 +6,7 @@ d{X}_t=b(X_t)dt+\sqrt{\varepsilon} dW_t,
 $$
 where $X_t\in\mathbb{R}^n$, and $W_t\in\mathbb{R}^n$ a standard Wiener process, and $\varepsilon$ is a small positive number. 
 
-Let $\phi(t)\in\mathbb{R}^n$ be an absolutely continuous function defined on $t\in[0,T]$. The Freidlin-Wentzell theory of large deviations asserts that the probability of $X_t$ passing the $\delta$-tube about $\phi(t)$ on $[0,T]$ is
+Let $\phi(t)\in\mathbb{R}^n$ be an absolutely continuous function defined on $t\in[0,T]$. The Freidlin-Wentzell theory of large deviations asserts that the probability of $X_t$ passing the $\delta$-tube about $\phi(t)$ on $[0,T]$ is 
 $$
 \Pr(\sup_{0\leq t\leq T}|X_t-\phi(t)|<\delta)\approx\exp(-\varepsilon^{-1}S_T(\phi))
 $$
