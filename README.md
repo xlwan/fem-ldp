@@ -99,7 +99,7 @@ In directory ./debug, we provide a typical input file **param.ns**. A simple scr
 
 ## Reference
 
-Following are some references related to the algorithms:
+Following are some references related to the code:
 
 1. X. Wan, An adaptive high-order minimum action method, *Journal of Computational Physics*, 230 (2011), pp. 8669-8682. 
 2. X. Wan, A minimum action method with optimal linear time scaling, *Communications in Computational Physics*, 18(5) (2015), pp. 1352-1379. 
