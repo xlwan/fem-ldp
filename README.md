@@ -18,7 +18,7 @@ $$
 $$
 \lim_{\varepsilon\downarrow0}\varepsilon\log\Pr(X_0=x,X_T\in A)=-\inf_{\substack{\phi(0)=x,\\ \phi(T)\in A}}S_T(\phi),
 $$
-which means that the transition probability from $x$ to $A$ at time $T$ is determined asymptotically by the minimizer of the action functional. When $\varepsilon\downarrow0$, the time scale of some events will increase exponentially, e.g., exit of the domain of attraction of a stable equilibrium. We then need to generalize the fact that $T$ is finite in the above equation and define the quasi-potential between two points $x_1,x_2\in\mathbb{R}^n$:
+which means that the transition probability from $x$ to $A$ at time $T$ is determined asymptotically by the minimizer of the action functional. When $\varepsilon\downarrow0$, the time scale of some events will increase exponentially, e.g., exit of the domain of attraction of a stable equilibrium. We then need to generalize the fact that $T$ is finite in the above equation and define the quasi-potential between two points $x_1,x_2\in\mathbb{R}^n$: 
 $$
 V(x_1,x_2)=\inf_{T>0}\inf_{\substack{\phi(0)=x_1,\\ \phi(T)=x_2}}S_T(\phi).
 $$
