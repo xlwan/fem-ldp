@@ -30,14 +30,8 @@ where $\tau_\delta$ is the first entrance time of the $\delta$-neighborhood of $
 
 In this project, we provide algorithms for the following two types of problems:
 $$
-S_{T}(\phi^*)=\inf_{{\phi(0)=x_1, \phi(T)=x_2}}S_T(\phi)
+\textrm{Problem I:}\quad\quad S_{T}(\phi^*)=\inf_{{\phi(0)=x_1, \phi(T)=x_2}}S_T(\phi)
 $$
-and
-$$
-\textrm{Problem II:}\quad\quad S_{T^*}(\phi^*)=\inf_{T\in\mathbb{R}^+}\inf_{{\phi(0)=x_1, \phi(T)=x_2}}S_T(\phi),
-$$
-where $T^*$ and $\phi^*$ indicates the minimizers. Problem I characterizes the most probable transition path for a specified time scale while Problem II is directly from the quasi-potential with a relaxed time scale for transition.
-
 ## Code description
 
 This is a flow chart of the code:
