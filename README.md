@@ -20,7 +20,7 @@ $$
 $$
 which means that the transition probability from $x$ to $A$ at time $T$ is determined asymptotically by the minimizer of the action functional. When $\varepsilon\downarrow0$, the time scale of some events will increase exponentially, e.g., exit of the domain of attraction of a stable equilibrium. We then need to generalize the fact that $T$ is finite in the above equation and define the quasi-potential between two points $x_1,x_2\in\mathbb{R}^n$: 
 $$
-V(x_1,x_2)=\inf_{T>0}\inf_{\substack{\phi(0)=x_1,\\ \phi(T)=x_2}}S_T(\phi).
+V(x_1,x_2)=\inf_{T>0}\inf_{{\phi(0)=x_1, \phi(T)=x_2}}S_T(\phi).
 $$
 The probabilistic meaning of the quasi-potential is 
 $$
@@ -30,7 +30,7 @@ where $\tau_\delta$ is the first entrance time of the $\delta$-neighborhood of $
 
 In this project, we provide algorithms for the following two types of problems:
 $$
-\mathrm{Problem}\,\,\mathrm{I:}\quad\quad S_{T}(\phi^*)=\inf_{{\phi(0)=x_1, \phi(T)=x_2}}S_T(\phi)
+\textrm{Problem I:}\quad\quad S_{T}(\phi^*)=\inf_{{\phi(0)=x_1, \phi(T)=x_2}}S_T(\phi)
 $$
 and
 $$
