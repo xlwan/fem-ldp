@@ -30,7 +30,11 @@ where $\tau_\delta$ is the first entrance time of the $\delta$-neighborhood of $
 
 In this project, we provide algorithms for the following two types of problems:
 $$
-\textrm{Problem II:}\quad\quad S_{{T^*}}(\phi^*)=\inf_{T\in\mathbb{R}^+}\inf_{{\phi(0)=x_1, \phi(T)=x_2}}S_T(\phi),
+\textrm{Problem I:}\quad\quad \inf_{{\phi(0)=x_1, \phi(T)=x_2}}S_T(\phi)
+$$
+and
+$$
+\textrm{Problem II:}\quad\quad \inf_{T\in\mathbb{R}^+}\inf_{{\phi(0)=x_1, \phi(T)=x_2}}S_T(\phi),
 $$
 
 
