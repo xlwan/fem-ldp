@@ -16,7 +16,7 @@ S_T(\phi)=\frac{1}{2}\int_0^TL(\phi,\dot{\phi})dt=\frac{1}{2}\int_0^T|\dot{\phi}
 $$
   where $\dot{\phi}$ indicates the derivative with respect to $t$. This implies the large deviation principle (LDP), which says that the probability of some random events can be estimated asymptotically if the noise amplitude is small enough. For example, if $A$ is a Borel subset in $\mathbb{R}^n$, we have LDP that
 $$
-\lim_{\varepsilon\downarrow0}\varepsilon\log\Pr(X_0=x,X_T\in A)=-\inf_{\substack{\phi(0)=x,\\ \phi(T)\in A}}S_T(\phi),
+\lim_{\varepsilon\downarrow0}\varepsilon\log\Pr(X_0=x,X_T\in A)=-\inf_{{\phi(0)=x, \phi(T)\in A}}S_T(\phi),
 $$
 which means that the transition probability from $x$ to $A$ at time $T$ is determined asymptotically by the minimizer of the action functional. When $\varepsilon\downarrow0$, the time scale of some events will increase exponentially, e.g., exit of the domain of attraction of a stable equilibrium. We then need to generalize the fact that $T$ is finite in the above equation and define the quasi-potential between two points $x_1,x_2\in\mathbb{R}^n$: 
 $$
